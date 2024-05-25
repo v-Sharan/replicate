@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 
-app.use("/uploads", express.static(path.join("uploads", "blogs")));
+app.use("/uploads", express.static(path.join("uploads")));
 
 app.use(bodyParser.json());
 app.use(cors());
