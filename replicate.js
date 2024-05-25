@@ -1,6 +1,5 @@
-const Replicate = require("replicate");
-const { config } = require("dotenv");
-// const replicateClient = new Replicate();
+import Replicate from "replicate";
+import { config } from "dotenv";
 
 config();
 
